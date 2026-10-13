@@ -129,7 +129,8 @@
               "crossingFlows": [
                 "7f29b826-eee9-4ba4-9fbc-b54d70c53996",
                 "d234cd14-cded-427a-a38f-12ef589e42b7",
-                "61d7136d-6cd5-4866-bad9-6e317ebd3dec"
+                "61d7136d-6cd5-4866-bad9-6e317ebd3dec",
+                "3158fe2f-92c6-43a5-b8c1-5e933a854d12"
               ],
               "containedElements": [
                 "711cd849-80d2-4793-8e7e-9b56b07fc54c",
@@ -157,6 +158,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "e3a5fc57-89c5-4bee-904e-460958269f0a",
             "data": {
               "type": "tm.BoundaryBox",
@@ -166,7 +168,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "d234cd14-cded-427a-a38f-12ef589e42b7",
-                "61d7136d-6cd5-4866-bad9-6e317ebd3dec"
+                "61d7136d-6cd5-4866-bad9-6e317ebd3dec",
+                "3158fe2f-92c6-43a5-b8c1-5e933a854d12"
               ],
               "containedElements": [
                 "9aef54dc-6f09-40b9-8c22-44ac2f88161b",
@@ -174,8 +177,7 @@
                 "57804911-3600-4fa8-b59a-82fa1d4c4189",
                 "0d72c783-0283-491f-8b66-1e6adc230a30"
               ]
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
@@ -2134,6 +2136,56 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Video y metadatos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5cdb51fd-2fb2-415e-82f6-f85982bb1724",
+                "e3a5fc57-89c5-4bee-904e-460958269f0a"
+              ]
+            },
+            "labels": [
+              "Video y metadatos"
+            ],
+            "id": "3158fe2f-92c6-43a5-b8c1-5e933a854d12",
+            "source": {
+              "cell": "db850f78-81e4-45f7-870d-8b5700b7ef41",
+              "port": "fcdaf626-1c79-4a20-93d3-3b9b05d3dc25"
+            },
+            "target": {
+              "cell": "57804911-3600-4fa8-b59a-82fa1d4c4189",
+              "port": "d9436b49-61f6-4641-ba38-cf32d1da94c9"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 310,
               "y": 741.9999999999991
@@ -2856,6 +2908,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2949,8 +3002,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 17
+            }
           },
           {
             "position": {
@@ -2973,6 +3025,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -3066,12 +3119,11 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 18
+            }
           },
           {
             "position": {
-              "x": 706.9999999999998,
+              "x": 854.9999999999998,
               "y": 976.9999999999991
             },
             "size": {
@@ -3090,6 +3142,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -3183,12 +3236,11 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 19
+            }
           },
           {
             "position": {
-              "x": 892,
+              "x": 1082,
               "y": 971.9999999999991
             },
             "size": {
@@ -3207,6 +3259,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -3300,8 +3353,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 20
+            }
           }
         ]
       },
